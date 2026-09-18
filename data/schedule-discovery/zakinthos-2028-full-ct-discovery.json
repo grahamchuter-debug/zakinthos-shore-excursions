@@ -1,10 +1,102 @@
 {
   "port": "zakinthos",
   "year": 2028,
-  "wave": "wave-1d",
+  "wave": "wave-2",
   "filterDecision": "HOLD",
   "filterReason": "validated 3 < MIN_PUBLISH_ROWS 15 — HOLD; restricted rows NOT reintroduced",
-  "validatedCount": 3,
-  "tier2KeysApplied": [],
-  "total": 10
+  "total": 10,
+  "validatedCount": 0,
+  "path": "HOLD",
+  "calls": [
+    {
+      "date": "2028-05-07",
+      "ship": "AIDAblu",
+      "cruiseLine": "AIDA",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "timeInPort": "10h",
+      "callType": "Port of call"
+    },
+    {
+      "date": "2028-06-11",
+      "ship": "AIDAblu",
+      "cruiseLine": "AIDA",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "timeInPort": "10h",
+      "callType": "Port of call"
+    },
+    {
+      "date": "2028-07-16",
+      "ship": "Oceania Allura",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "11:00",
+      "departure": "20:00",
+      "timeInPort": "9h",
+      "callType": "Port of call"
+    },
+    {
+      "date": "2028-07-23",
+      "ship": "AIDAblu",
+      "cruiseLine": "AIDA",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "timeInPort": "10h",
+      "callType": "Port of call"
+    },
+    {
+      "date": "2028-07-26",
+      "ship": "SeaDream II",
+      "cruiseLine": "SeaDream Yacht Club",
+      "arrival": "",
+      "departure": "",
+      "timeInPort": null,
+      "callType": "Port of call"
+    },
+    {
+      "date": "2028-08-11",
+      "ship": "SeaDream II",
+      "cruiseLine": "SeaDream Yacht Club",
+      "arrival": "",
+      "departure": "",
+      "timeInPort": null,
+      "callType": "Port of call"
+    },
+    {
+      "date": "2028-08-19",
+      "ship": "Oceania Allura",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "12:00",
+      "departure": "20:00",
+      "timeInPort": "8h",
+      "callType": "Port of call"
+    },
+    {
+      "date": "2028-09-03",
+      "ship": "AIDAblu",
+      "cruiseLine": "AIDA",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "timeInPort": "10h",
+      "callType": "Port of call"
+    },
+    {
+      "date": "2028-09-05",
+      "ship": "Oceania Allura",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "callType": "Port of call"
+    },
+    {
+      "date": "2028-10-29",
+      "ship": "AIDAblu",
+      "cruiseLine": "AIDA",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "timeInPort": "10h",
+      "callType": "Port of call"
+    }
+  ]
 }
