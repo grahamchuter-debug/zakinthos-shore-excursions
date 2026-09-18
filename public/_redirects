@@ -1,0 +1,7 @@
+# Workers Static Assets: relative path redirects only (ADR-0001).
+# Configure www.zakinthosshoreexcursions.com → zakinthosshoreexcursions.com via Cloudflare
+# Custom Domains / Redirect Rules (user-managed). Do not put absolute host rules here.
+
+# Walk It Yourself alias (customer-facing brand → Explore Independently guide)
+/walk-it-yourself /guides/explore-independently 301
+/walk-it-yourself/ /guides/explore-independently 301

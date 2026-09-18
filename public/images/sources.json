@@ -1,0 +1,32 @@
+{
+  "generated": "2026-07-28T00:00:00.000Z",
+  "site": "zakinthosshoreexcursions.com",
+  "note": "Placeholders reused from Volos / Thessaloniki image sets for localhost Gold scaffolding. Replace with licensed Zakynthos / Navagio / Blue Caves / loggerhead / harbour production photography before launch.",
+  "files": {
+    "hero.jpg": { "source": "placeholder-from-volos", "role": "homepage hero", "productionReplace": "Navagio cove from approved viewpoint or turquoise Ionian coastline at golden hour" },
+    "hero-home.jpg": { "source": "placeholder-from-volos", "role": "home hero band", "productionReplace": "Dramatic Zakynthos cliffs and turquoise water" },
+    "og-default.jpg": { "source": "placeholder-from-volos", "role": "Open Graph default", "productionReplace": "Signature Zakynthos coastal scene" },
+    "navagio.jpg": { "source": "alias-of-coastal-placeholder", "role": "Navagio / Shipwreck Beach editorial", "productionReplace": "Navagio cove from cliff viewpoint or from the water — not beach landing" },
+    "shipwreck.jpg": { "source": "alias-of-hero-placeholder", "role": "Shipwreck Beach guide", "productionReplace": "Famous rusted shipwreck cove from legal viewpoint" },
+    "blue-caves.jpg": { "source": "alias-of-coast-placeholder", "role": "Blue Caves", "productionReplace": "Blue Caves arches and luminous Ionian water from boat" },
+    "turtles.jpg": { "source": "alias-of-nature-placeholder", "role": "Caretta caretta", "productionReplace": "Loggerhead turtle context (ethical wildlife photography)" },
+    "zakynthos-town.jpg": { "source": "alias-of-waterfront-placeholder", "role": "Zakynthos Town", "productionReplace": "Solomos Square or harbour promenade" },
+    "harbour.jpg": { "source": "alias-of-waterfront-placeholder", "role": "Harbour life", "productionReplace": "Zakynthos harbour promenade with cafés" },
+    "island-4x4.jpg": { "source": "alias-of-private-placeholder", "role": "Editor's Choice 4x4", "productionReplace": "Premium Land Rover on Zakynthos mountain tracks with island vistas" },
+    "olive-groves.jpg": { "source": "alias-of-pelion-placeholder", "role": "Olive groves / interior", "productionReplace": "Ancient olive groves and village lanes inland" },
+    "ionian.jpg": { "source": "alias-of-pagasetic-placeholder", "role": "Ionian Sea", "productionReplace": "Turquoise Ionian water off Zakynthos" },
+    "ionian-cuisine.jpg": { "source": "alias-of-food-placeholder", "role": "Food guide", "productionReplace": "Ionian taverna table — olive oil, wine, seafood" },
+    "cliffs.jpg": { "source": "alias-of-viewpoints-placeholder", "role": "Dramatic cliffs", "productionReplace": "West-coast limestone cliffs of Zakynthos" },
+    "promenade.jpg": { "source": "alias-of-walking-placeholder", "role": "Walk It Yourself", "productionReplace": "Harbour promenade stroll in Zakynthos Town" },
+    "solomos.jpg": { "source": "alias-of-historic-placeholder", "role": "Solomos Square", "productionReplace": "Solomos Square and civic heart of Zakynthos Town" },
+    "cruise-port.jpg": { "source": "placeholder-from-volos", "role": "Cruise port", "productionReplace": "Zakynthos / Zante cruise port and tender/berth context" }
+  },
+  "productionReplace": [
+    "Licensed Navagio viewpoint photography (no beach-landing claims)",
+    "Blue Caves boat photography",
+    "Caretta caretta ethical wildlife imagery",
+    "Zakynthos Town harbour and Solomos Square",
+    "4x4 island interior / olive grove production set",
+    "Hero: unmistakably Zakynthos Ionian coastline"
+  ]
+}

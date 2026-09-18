@@ -1,0 +1,15 @@
+# Copy to `.dev.vars` for local `wrangler dev` (gitignored).
+# Use Stripe TEST keys only until the launch checklist passes.
+
+STRIPE_SECRET_KEY=sk_test_REPLACE_ME
+STRIPE_WEBHOOK_SECRET=whsec_REPLACE_ME
+# Required — approved retail EUR price per guest (€149).
+BOOKING_PRICE_PER_GUEST_EUR=149
+# Trusted public site origin for Checkout redirects (local Next during development).
+SITE_BASE_URL=http://localhost:3000
+
+# Resend (internal paid-booking alerts only — no automated customer email in v1)
+RESEND_API_KEY=re_REPLACE_ME
+INTERNAL_BOOKING_EMAIL=info@wowatour.com
+EMAIL_FROM=bookings@notifications.wowatour.com
+EMAIL_FROM_NAME=Villefranche Shore Excursions

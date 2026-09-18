@@ -1,0 +1,23 @@
+name = "zakinthos-payments"
+main = "src/index.ts"
+compatibility_date = "2025-07-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "zakinthos-bookings"
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"
+
+[vars]
+CHECKOUT_CURRENCY = "eur"
+BOOKING_REF_PREFIX = "ZK"
+BOOKING_PRICE_PER_GUEST_EUR = "149"
+ORIGINATING_SITE = "zakinthosshoreexcursions.com"
+ORIGINATING_PORT = "Zakynthos"
+SITE_BASE_URL = "http://localhost:3000"
+SITE_ORIGIN = "http://localhost:3000"
+CORS_ALLOWED_ORIGINS = "http://localhost:3000,http://127.0.0.1:3000,https://zakinthosshoreexcursions.com,https://www.zakinthosshoreexcursions.com"
+INTERNAL_BOOKING_EMAIL = "info@wowatour.com"
+EMAIL_FROM = "bookings@notifications.wowatour.com"
+EMAIL_FROM_NAME = "Zakynthos Shore Excursions"

@@ -1,0 +1,150 @@
+/*
+ * World 2.0 Design System (v1) — destination-overridable brand tokens.
+ *
+ * Accent swap later: override --w2-primary / --w2-primary-hover (and link pair)
+ * on a destination root; keep navy, neutrals, and semantic status colours stable
+ * so the Riviera language stays consistent. Primary interactive colour matches
+ * the live site Riviera blue (Tailwind blue-600 family). Dark navy is typography
+ * and chrome only — do not use it as a competing CTA fill.
+ */
+
+:root {
+  /* Brand — interactive */
+  --w2-primary: #2563eb;
+  --w2-primary-hover: #1d4ed8;
+  --w2-primary-pressed: #1e40af;
+  --w2-primary-soft: #eff6ff;
+  --w2-primary-muted: #dbeafe;
+
+  /* Brand — supporting (non-interactive dominance) */
+  --w2-navy: #0c1a24;
+  --w2-navy-deep: #0b1220;
+
+  /* Surfaces */
+  --w2-bg: #ffffff;
+  --w2-bg-warm: #fbfcfb;
+  --w2-surface: #ffffff;
+  --w2-grey-light: #f7f9f8;
+  --w2-border: #e4ebe8;
+  --w2-muted: #5a6b78;
+
+  /* Links (same family as primary; slightly deeper for body-text AA) */
+  --w2-link: #1d4ed8;
+  --w2-link-hover: #1e40af;
+
+  /* Status */
+  --w2-success: #2a6b52;
+  --w2-warning: #9a7b4f;
+  --w2-error: #b42318;
+  --w2-gold: #9a7b4f;
+
+  /* Focus */
+  --w2-focus-ring: var(--w2-primary);
+
+  /* Button motion (shared family) */
+  --w2-btn-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --w2-btn-shadow: 0 10px 28px -14px color-mix(in srgb, var(--w2-primary) 55%, transparent);
+  --w2-btn-shadow-active: 0 4px 14px -10px color-mix(in srgb, var(--w2-primary) 40%, transparent);
+}
+
+/* Shared CTA primitives — site + booking should share this family */
+.w2-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  transition:
+    transform 0.4s var(--w2-btn-ease),
+    box-shadow 0.4s var(--w2-btn-ease),
+    background-color 0.35s ease,
+    border-color 0.35s ease,
+    color 0.35s ease,
+    opacity 0.3s ease;
+}
+
+.w2-btn:focus-visible {
+  outline: 2px solid var(--w2-focus-ring);
+  outline-offset: 2px;
+}
+
+.w2-btn:disabled,
+.w2-btn[aria-disabled="true"] {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.w2-btn-primary {
+  background-color: var(--w2-primary);
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.w2-btn-primary:hover:not(:disabled):not([aria-disabled="true"]) {
+  background-color: var(--w2-primary-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--w2-btn-shadow);
+}
+
+.w2-btn-primary:active:not(:disabled):not([aria-disabled="true"]) {
+  background-color: var(--w2-primary-pressed);
+  transform: translateY(0);
+  box-shadow: var(--w2-btn-shadow-active);
+}
+
+.w2-btn-secondary {
+  border: 1px solid var(--w2-primary);
+  background-color: var(--w2-bg);
+  color: var(--w2-link);
+}
+
+.w2-btn-secondary:hover:not(:disabled):not([aria-disabled="true"]) {
+  background-color: var(--w2-primary-soft);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px -14px color-mix(in srgb, var(--w2-navy) 28%, transparent);
+}
+
+.w2-btn-secondary:active:not(:disabled):not([aria-disabled="true"]) {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.w2-btn-ghost {
+  background: transparent;
+  color: var(--w2-muted);
+}
+
+.w2-btn-ghost:hover:not(:disabled):not([aria-disabled="true"]) {
+  color: var(--w2-navy);
+}
+
+.w2-link {
+  color: var(--w2-link);
+  font-weight: 500;
+  text-underline-offset: 2px;
+  transition: color 0.2s ease;
+}
+
+.w2-link:hover {
+  color: var(--w2-link-hover);
+  text-decoration: underline;
+}
+
+.w2-link:focus-visible {
+  outline: 2px solid var(--w2-focus-ring);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .w2-btn,
+  .w2-btn-primary:hover:not(:disabled),
+  .w2-btn-primary:active:not(:disabled),
+  .w2-btn-secondary:hover:not(:disabled),
+  .w2-btn-secondary:active:not(:disabled) {
+    transition: none !important;
+    transform: none !important;
+    box-shadow: none !important;
+  }
+}

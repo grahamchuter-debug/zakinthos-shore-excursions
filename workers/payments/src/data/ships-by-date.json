@@ -1,0 +1,60 @@
+{
+  "2026-09-12": [
+    {
+      "name": "MSC Seaside",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00"
+    },
+    {
+      "name": "Costa Smeralda",
+      "cruiseLine": "Costa Cruises",
+      "arrival": "08:00",
+      "departure": "19:00"
+    }
+  ],
+  "2026-09-19": [
+    {
+      "name": "MSC Grandiosa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:30",
+      "departure": "18:30"
+    },
+    {
+      "name": "Costa Toscana",
+      "cruiseLine": "Costa Cruises",
+      "arrival": "08:00",
+      "departure": "18:00"
+    }
+  ],
+  "2026-10-03": [
+    {
+      "name": "MSC Divina",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "17:00"
+    },
+    {
+      "name": "Explora II",
+      "cruiseLine": "Explora Journeys",
+      "arrival": "08:00",
+      "departure": "18:00"
+    }
+  ],
+  "2026-10-17": [
+    {
+      "name": "Costa Deliziosa",
+      "cruiseLine": "Costa Cruises",
+      "arrival": "07:00",
+      "departure": "18:00"
+    }
+  ],
+  "2026-11-07": [
+    {
+      "name": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "17:30"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+[
+  {
+    "date": "2026-08-04",
+    "ship": "Costa Deliziosa",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "09:00",
+    "departure": "20:00",
+    "callType": "Port of call",
+    "timeInPort": "11h"
+  },
+  {
+    "date": "2026-08-09",
+    "ship": "AIDAblu",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "callType": "Port of call",
+    "timeInPort": "10h"
+  },
+  {
+    "date": "2026-08-13",
+    "ship": "Seabourn Quest",
+    "cruiseLine": "Seabourn",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "callType": "Port of call",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-08-18",
+    "ship": "Costa Deliziosa",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "09:00",
+    "departure": "20:00",
+    "callType": "Port of call",
+    "timeInPort": "11h"
+  },
+  {
+    "date": "2026-08-27",
+    "ship": "Seabourn Quest",
+    "cruiseLine": "Seabourn",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "callType": "Port of call",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-09-15",
+    "ship": "Costa Deliziosa",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "09:00",
+    "departure": "20:00",
+    "callType": "Port of call",
+    "timeInPort": "11h"
+  },
+  {
+    "date": "2026-09-15",
+    "ship": "SeaDream I",
+    "cruiseLine": "SeaDream Yacht Club",
+    "arrival": "",
+    "departure": "",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-20",
+    "ship": "Seven Seas Navigator",
+    "cruiseLine": "Regent Seven Seas Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "callType": "Port of call",
+    "timeInPort": "10h"
+  },
+  {
+    "date": "2026-09-27",
+    "ship": "AIDAblu",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "callType": "Port of call",
+    "timeInPort": "10h"
+  },
+  {
+    "date": "2026-09-29",
+    "ship": "Costa Deliziosa",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "09:00",
+    "departure": "20:00",
+    "callType": "Port of call",
+    "timeInPort": "11h"
+  },
+  {
+    "date": "2026-10-08",
+    "ship": "Seabourn Quest",
+    "cruiseLine": "Seabourn",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "callType": "Port of call",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-10-17",
+    "ship": "Oceania Insignia",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "14:00",
+    "departure": "21:00",
+    "callType": "Port of call",
+    "timeInPort": "7h"
+  },
+  {
+    "date": "2026-10-25",
+    "ship": "AIDAblu",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "callType": "Port of call",
+    "timeInPort": "10h"
+  },
+  {
+    "date": "2027-04-27",
+    "ship": "Costa Deliziosa",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "callType": "Port of call",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-05-01",
+    "ship": "Crystal Symphony",
+    "cruiseLine": "Crystal Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "callType": "Port of call",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-05-02",
+    "ship": "AIDAblu",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "callType": "Port of call",
+    "timeInPort": "10h"
+  },
+  {
+    "date": "2027-05-11",
+    "ship": "Costa Deliziosa",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "callType": "Port of call",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-06-20",
+    "ship": "AIDAblu",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "callType": "Port of call",
+    "timeInPort": "10h"
+  },
+  {
+    "date": "2027-07-23",
+    "ship": "Oceania Sirena",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "13:00",
+    "departure": "22:00",
+    "callType": "Port of call",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-08-01",
+    "ship": "AIDAblu",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "callType": "Port of call",
+    "timeInPort": "10h"
+  },
+  {
+    "date": "2027-08-18",
+    "ship": "Costa Deliziosa",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "callType": "Port of call",
+    "timeInPort": "12h"
+  },
+  {
+    "date": "2027-08-22",
+    "ship": "Azamara Onward",
+    "cruiseLine": "Azamara Cruises",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "callType": "Port of call",
+    "timeInPort": "12h"
+  },
+  {
+    "date": "2027-10-17",
+    "ship": "AIDAblu",
+    "cruiseLine": "AIDA",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "callType": "Port of call",
+    "timeInPort": "10h"
+  },
+  {
+    "date": "2027-10-20",
+    "ship": "Oceania Insignia",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "callType": "Port of call",
+    "timeInPort": "10h"
+  }
+]

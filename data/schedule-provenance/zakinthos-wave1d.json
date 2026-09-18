@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-09-18T07:43:29.236Z",
+  "wave": "wave-1d",
+  "port": "zakinthos",
+  "destSlug": "zakinthos",
+  "displayName": "Zakynthos",
+  "counts": {
+    "2026": 13,
+    "2027": 11,
+    "2028_discovery": 10,
+    "2028_published": 0,
+    "public_total": 24,
+    "h1_2026": 0
+  },
+  "partial2026": true,
+  "filter2028": {
+    "decision": "HOLD",
+    "reason": "validated 3 < MIN_PUBLISH_ROWS 15 — HOLD; restricted rows NOT reintroduced",
+    "validatedCount": 3,
+    "tier2PrincessKeys": 0
+  },
+  "timeCompleteness": {
+    "2026": {
+      "total": 13,
+      "arrival": 12,
+      "departure": 12,
+      "both": 12,
+      "neither": 1,
+      "pctBoth": 92.3
+    },
+    "2027": {
+      "total": 11,
+      "arrival": 11,
+      "departure": 11,
+      "both": 11,
+      "neither": 0,
+      "pctBoth": 100
+    },
+    "2028": {
+      "total": 0,
+      "arrival": 0,
+      "departure": 0,
+      "both": 0,
+      "neither": 0,
+      "pctBoth": 0
+    }
+  },
+  "contaminationPurged": [
+    "src/data/imported-schedules/savona.json"
+  ],
+  "wireSchedulesTs": {
+    "wired": true,
+    "reason": "import wired"
+  }
+}

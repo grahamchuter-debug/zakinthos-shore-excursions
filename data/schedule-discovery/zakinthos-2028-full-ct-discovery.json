@@ -1,0 +1,10 @@
+{
+  "port": "zakinthos",
+  "year": 2028,
+  "wave": "wave-1d",
+  "filterDecision": "HOLD",
+  "filterReason": "validated 3 < MIN_PUBLISH_ROWS 15 — HOLD; restricted rows NOT reintroduced",
+  "validatedCount": 3,
+  "tier2KeysApplied": [],
+  "total": 10
+}

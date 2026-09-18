@@ -1,0 +1,46 @@
+{
+  "name": "zakinthos-shore-excursions",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "check-links": "node scripts/check-links.mjs",
+    "seo-qa": "node scripts/seo-qa.mjs",
+    "download:images": "node scripts/optimize-images.mjs",
+    "optimize:images": "node scripts/optimize-images.mjs",
+    "generate:data": "echo 'Editorial data is maintained in src/data/'",
+    "prebuild": "node scripts/optimize-images.mjs",
+    "qa:world2": "node \"../Desktop folder/World-2.0/scripts/world2-audit.js\" --site .",
+    "qa:full": "npm run build && npm run check-links && npm run seo-qa && npm run qa:world2 -- --build",
+    "deploy": "npm run build && wrangler deploy",
+    "deploy:worker": "npm run deploy",
+    "pages:deploy": "echo 'ERROR: This site deploys via Workers Static Assets (npm run deploy). Do not use Pages.' && exit 1",
+    "legacy:pages-deploy": "echo 'LEGACY Pages deploy disabled — use npm run deploy (Workers Static Assets).' && exit 1",
+    "payments:dev": "npm run dev --prefix workers/payments",
+    "payments:types": "npm run types --prefix workers/payments"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "jspdf": "^4.2.1",
+    "next": "16.2.9",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.9",
+    "sharp": "^0.35.3",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "wrangler": "^4.106.0"
+  }
+}

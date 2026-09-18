@@ -1,0 +1,14 @@
+{
+  // WORKERS STATIC ASSETS — Zakynthos Shore Excursions (ADR-0001)
+  // Custom Domain routes: omit until approval, then apex custom_domain only.
+  // www → apex via Cloudflare Redirect Rules (not a second Worker origin).
+  "name": "zakinthos-shore-excursions",
+  "compatibility_date": "2026-07-17",
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./out",
+    "html_handling": "force-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
